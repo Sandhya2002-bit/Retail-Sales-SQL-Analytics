@@ -77,7 +77,7 @@ Retail-Sales-SQL-Analytics/
 │   └── analysis_queries.sql
 │
 
-├── screenshots/
+├── images/
 │   └── query_results.png
 │
 
