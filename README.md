@@ -92,7 +92,7 @@ Retail-Sales-SQL-Analytics/
 
 ### Total Sales Analysis
 
-```sql
+sql
 SELECT 
     SUM(Sales) AS Total_Sales
 FROM sales;
