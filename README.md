@@ -69,21 +69,21 @@ The analysis focuses on solving important business problems such as:
 
 Retail-Sales-SQL-Analytics/
 │
-|
+
 ├── dataset/
 │   └── sales_data.csv
 │
 ├── sql_queries/
 │   └── analysis_queries.sql
 │
-|
+
 ├── screenshots/
 │   └── query_results.png
 │
-|
+
 ├── insights_report.md
 │
-|
+
 └── README.md
 
 ---
