@@ -96,3 +96,70 @@ Retail-Sales-SQL-Analytics/
 SELECT 
     SUM(Sales) AS Total_Sales
 FROM sales;
+
+### Top 10 customers
+
+SELECT 
+    Customer_Name,
+    SUM(Sales) AS Total_Spent
+FROM sales
+GROUP BY Customer_Name
+ORDER BY Total_Spent DESC
+LIMIT 10;
+
+### Profit by Category
+
+SELECT 
+    Category,
+    SUM(Profit) AS Total_Profit
+FROM sales
+GROUP BY Category
+ORDER BY Total_Profit DESC;
+
+---
+
+### Key Business Insights
+
+* Office Supplies generated the highest overall profit.
+* Furniture category showed negative profitability, indicating potential operational or discount-related challenges.
+* A small group of customers contributed significantly to total sales revenue.
+* Regional sales performance varied considerably across locations.
+* Discounts had a noticeable impact on profit margins in certain categories.
+
+Detailed findings are available in:
+insights_report.md
+
+---
+
+Learning Outcomes
+
+Through this project, I strengthened my understanding of:
+
+* SQL for business analytics
+* Data exploration and reporting
+* Writing analytical queries
+* Translating raw data into business insights
+* Structuring professional analytics projects for GitHub portfolios
+
+---
+
+### Future Improvements
+
+Future enhancements planned for this project include:
+
+* Power BI dashboard integration
+* Advanced KPI reporting
+* Sales forecasting analysis
+* Customer segmentation analysis
+* Interactive business dashboards
+
+---
+
+### Author
+
+Sandhya Hanabar
+
+Aspiring Data Analyst | SQL | Python | Machine Learning | Data Visualization
+
+
+
