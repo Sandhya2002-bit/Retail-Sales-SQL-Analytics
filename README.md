@@ -93,8 +93,11 @@ Retail-Sales-SQL-Analytics/
 ### Total Sales Analysis
 
 sql
+
 SELECT 
+
     SUM(Sales) AS Total_Sales
+    
 FROM sales;
 
 ### Top 10 customers
